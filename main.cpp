@@ -11,8 +11,6 @@ int main(int argc, char** argv)
 	testBitset.setAll(false) ;
 	cout << "num of one£º" << testBitset.oneCount() << endl;
 
-
-
 	testBitset.setBit(0, true) ;
 	cout << "num of one£º" << testBitset.oneCount() << endl;
 	testBitset.setBit(99, true) ;
